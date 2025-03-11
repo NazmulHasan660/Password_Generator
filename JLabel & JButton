@@ -34,4 +34,16 @@ public class Password extends JFrame {
         copyButton = new JButton("Copy to Clipboard");
         copyButton.setEnabled(false);
 
-}
+add(lengthLabel);
+        add(lengthField);
+        add(generateButton);
+        add(copyButton);
+        add(new JScrollPane(passwordArea));
+        add(upperCaseBox);
+        add(lowerCaseBox);
+        add(numbersBox);
+        add(specialCharsBox);
+        add(statusLabel);
+
+        setVisible(true);
+    }
