@@ -1,4 +1,4 @@
- password;
+package password;
 
 import javax.swing.*;
 import java.awt.*;
@@ -24,11 +24,11 @@ public class Password extends JFrame {
 
         // Labels and inputs
         JLabel lengthLabel = new JLabel("Enter password length: ");
-        lengthField = new JTextField(10);
-        passwordArea = new JTextArea(3, 20);
+        lengthField = new JTextField(12);
+        passwordArea = new JTextArea(4, 20);
         passwordArea.setEditable(false);
         passwordArea.setFont(new Font("Monospaced", Font.PLAIN, 14));
-        passwordArea.setBackground(Color.LIGHT_GRAY);
+        passwordArea.setBackground(Color.GRAY);
 
         generateButton = new JButton("Generate Password");
         copyButton = new JButton("Copy to Clipboard");
