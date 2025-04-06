@@ -12,6 +12,7 @@ public class PassGen {
         frame.setLayout(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setBackground(Color.decode("#FEF9E1")); // Light background
+        frame.setLocationRelativeTo(null);
 
         JLabel lengthLabel = new JLabel("Length:");
         lengthLabel.setBounds(30, 20, 70, 30);
